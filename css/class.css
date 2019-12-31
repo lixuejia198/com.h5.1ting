@@ -1,0 +1,92 @@
+/* 1.头部 */
+header {
+  position: relative;
+  height: calc(90rem / 75);
+  line-height: calc(90rem / 75);
+  background-color: #0099fd;
+}
+
+header .logo {
+  position: absolute;
+  top: calc(20rem / 75);
+  left: calc(20rem / 75);
+  width: calc(40rem / 75);
+  height: calc(35rem / 75);
+  background-image: url(../image/left_arrow_icon.png);
+  background-size: calc(40rem / 75) calc(35rem / 75);
+}
+
+header h1 {
+  color: #fff;
+  text-align: center;
+  font-size: calc(35rem / 75);
+  font-weight: bold;
+}
+
+header span {
+  position: absolute;
+  top: calc(20rem / 75);
+  right: calc(20rem / 75);
+  width: calc(44rem / 75);
+  height: calc(44rem / 75);
+  background-image: url(../image/search_icon.png);
+  background-size: calc(44rem / 75) calc(44rem / 75);
+}
+
+/* 2.导航条 */
+nav {
+  display: flex;
+  height: calc(64rem / 75);
+  line-height: calc(64rem / 75);
+  text-align: center;
+  margin-bottom: calc(39rem / 75);
+}
+
+nav a {
+  flex: 1;
+  font-size: calc(31rem / 75);
+  background-color: #e5e5e5;
+  color: #333;
+}
+
+nav .active {
+  background-color: #fff;
+  border-bottom: calc(4rem / 75) solid #0099fd;
+  box-sizing: border-box;
+}
+
+/* 3.主体 */
+main {
+  padding-bottom: calc(40rem / 75);
+}
+
+main h3 {
+  height: calc(56rem / 75);
+  border-left: calc(4rem / 75) solid #0099fd;
+  color: #0099fd;
+  padding-left: calc(19rem / 75);
+  font-size: calc(37rem / 75);
+  box-sizing: border-box;
+  line-height: calc(56rem / 75);
+  margin-top: calc(20rem / 75);
+  margin-bottom: calc(20rem / 75);
+  margin-left: calc(19rem / 75);
+}
+
+main .class-item {
+  overflow: hidden;
+  border-top: calc(2rem / 75) solid #e8e8e8;
+  border-left: calc(2rem / 75) solid #e8e8e8;
+}
+
+main .class-item li {
+  float: left;
+  width: calc(185rem / 75);
+  height: calc(86rem / 75);
+  border-right: calc(2rem / 75) solid #e8e8e8;
+  border-bottom: calc(2rem / 75) solid #e8e8e8;
+  text-align: center;
+  line-height: calc(86rem / 75);
+  font-size: calc(31rem / 75);
+  color: #353535;
+}
