@@ -56,7 +56,12 @@ nav .active {
 }
 
 /* 3.主体 */
+main {
+  padding-bottom: calc(20rem / 75);
+}
+
 .popular-singers {
+  position: relative;
   padding-bottom: calc(67rem / 75);
 }
 
@@ -104,6 +109,26 @@ nav .active {
   text-align: center;
   font-size: calc(28rem / 75);
   margin-top: calc(3rem / 75);
+}
+
+.popular-singers .symbol {
+  position: absolute;
+  left: 50%;
+  bottom: calc(48rem / 75);
+  transform: translateX(-50%);
+  overflow: hidden;
+}
+
+.popular-singers .symbol li {
+  float: left;
+  width: calc(20rem / 75);
+  height: calc(12rem / 75);
+  background-color: #d2d2d2;
+  margin-right: calc(16rem / 75);
+}
+
+.popular-singers .symbol .active {
+  background-color: #0099fd;
 }
 
 .singers-class {
