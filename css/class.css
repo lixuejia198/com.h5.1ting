@@ -81,7 +81,7 @@ main .class-item {
 
 main .class-item li {
   float: left;
-  width: calc(185rem / 75);
+  width: 33.3333%;
   height: calc(86rem / 75);
   border-right: calc(2rem / 75) solid #e8e8e8;
   border-bottom: calc(2rem / 75) solid #e8e8e8;
@@ -89,4 +89,5 @@ main .class-item li {
   line-height: calc(86rem / 75);
   font-size: calc(31rem / 75);
   color: #353535;
+  box-sizing: border-box;
 }
